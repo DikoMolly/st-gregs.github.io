@@ -1,0 +1,406 @@
+*{
+	box-sizing:border-box;
+	scroll-behavior: scroll;
+	margin: 0;
+	padding:0;
+	overflow-x: hidden;
+	font-family:verdana,Geneva,tahoma,sans-serif;
+}
+
+header{
+	background-image:url("babtech.jpg");
+	background-size:cover;
+	color:white;
+	height:100vh;
+	width: 100%;
+}
+
+.nav-container{
+	display:flex;
+	justify-content: space-between;
+	background:white;
+	width:100%;
+	top:0px;
+	position:fixed;
+	padding-top:20px 0 5px 0;
+	font-weight: bold;
+	z-index: 999;
+	animation-name: animale 10s;
+	animation-delay: 0s;
+}
+.nav-container a{
+	margin-right: 70px;
+	text-decoration: none;
+	color: black;
+	
+}
+.contact-us-container div{
+	margin-left:1px;
+}
+.download-image{
+	width:50px;
+	border-radius:100%;
+	margin-left:100px;
+	margin-top:-15px;
+}
+.nav-list a{
+	margin-right:40px;
+	padding-top:100px;
+	text-decoration: none;
+	color:black;
+}
+.home{
+	margin-top:50px;
+	padding-bottom:10rem;
+}
+
+.background-text{
+	padding-top: 19rem;
+	margin-left:100px;
+	text-transform: capitalize;
+	position:relative;
+	animation-name: animate;
+	animation-duration:2s;
+}
+@keyframes animate{
+	from{
+		left:-2000px;
+	}
+	to{
+		left:20px;
+	}
+}
+.img-1{
+	width:50px;
+	margin-left:10px;
+	border-radius:50%;
+}
+.service-wrap{
+	background:lightgrey;
+	border-radius:10px;
+	width:22rem;
+	padding-top:50px;
+	padding-left:25px;
+	padding-right: 25px;
+	height:24rem;
+	color:black;
+	text-align: center;
+	font-size: 15px;
+}
+.service-1{
+	width:100px;
+	margin-left:20px;
+	border-radius:100%;
+}
+.service-container a{
+	text-decoration: none;
+}
+
+.service-h2{
+	padding-bottom:20px;
+	padding-top:50px;
+	text-align: center;
+}
+.span-1{
+	color:steelblue;
+}
+.tool-tip{
+	color: white;
+	background: royalblue;
+	padding: 5px;
+	border-radius: 20px;
+	position: absolute;
+	z-index: 1;
+	text-align:center;
+	width: 110px;
+	margin-left: -55px;
+	left: 54%;
+	visibility: hidden;
+	top: 105%;
+	font-size: 15px;
+}
+h1:hover > .tool-tip{
+	visibility: visible;
+}
+.service-wrap-2{
+	background:lightgrey;
+	border-radius:10px;
+	width:22rem;
+	padding-top:50px;
+	padding-left:25px;
+	padding-right: 25px;
+	height:24rem;
+	color:black;
+	text-align: center;
+	margin-top:0px;
+	font-size: 15px;
+}
+.service-wrap-3{
+	background:lightgrey;
+	border-radius:10px;
+	width:22rem;
+	padding-top:50px;
+	padding-left:25px;
+	padding-right: 25px;
+	font-size: 15px;
+	height:24rem;
+	color:black;
+	text-align: center;
+	margin-top:0px;
+}
+@keyframes myAnimation{
+	from{
+		right:-2000px;
+	}
+	to{
+		right:20px;
+	}
+}
+.service-our{
+	color: royalblue;
+}
+.service-container{
+	animation-duration: 2s;
+	animation-delay: 2s;
+	animation-name: myAnimation;
+	position:relative;
+	
+}
+.wrap-man{
+	display:flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	text-transform: capitalize;
+	font-size: 15px;
+	margin-left:150px;
+	margin-right:150px;
+	margin-top:20px;
+	z-index: 0;
+}
+.about{
+	text-align: center;
+	margin-bottom: 40px;
+}
+.about-container{
+	display:grid;
+	justify-content: center;
+	text-align: center;
+	margin-left:360px;
+	margin-right:360px;
+	font-size:15px;
+	margin-top: 100px;
+	margin-bottom: 50px;
+}
+.about-container span{
+	color: royalblue;
+}
+.project-container{
+	display:flex;
+	justify-content: space-around;
+	background:royalblue;
+	padding-top:50px;
+	padding-bottom:40px;
+	color:white;
+}
+.project-container a{
+	padding-top:500px;
+	padding-left:100px;
+}
+.project-container button{
+	padding:15px 20px;
+	border-radius:5px;
+	border:none;
+	outline:none;
+}
+.get-started-container h2{
+	text-align: center;
+	margin-top: 80px;
+}
+.get-started-container{
+	display: grid;
+	justify-content: center;
+	margin-bottom: 80px;
+}
+.get-started-container p{
+	margin-left:500px;
+	margin-right:500px;
+	font-size:15px;
+	text-align: center;
+}
+.descrip{
+	font-size: 13px;
+	position: absolute;
+	top: 240%;
+	left: 41%;
+	background: royalblue;
+	color: white;
+	padding: 10px;
+	border-radius: 20px;
+	visibility: hidden;
+}
+h2:hover > .descrip{
+	visibility: visible;
+}
+.contact-us-container{
+	margin-left: 100px;
+}
+
+.contact-us-container img{
+	width:50px;
+}
+.span-contact{
+	font-size: 12px;
+	position: absolute;
+	background: royalblue;
+	color: white;
+	padding: 10px;
+	border-radius: 10px;
+	top: 260%;
+	left: 700px;
+	visibility: hidden;
+}
+h1:hover > .span-contact{
+	visibility: visible;
+}
+.h2-container{
+	text-align: center;
+	margin-bottom:100px;
+	margin-top:50px;
+}
+
+.email{
+	padding:15px;
+	width:20rem;
+}
+.description-container{
+	margin-left:150px;
+}
+.one-name{
+	display:flex;
+	line-height: 50px;
+}
+.control-success{
+	display:grid;
+	justify-content: center;
+	margin-right:150px;
+	line-height: 30px;
+	margin-top:-30px;
+}
+
+.btn button{
+	margin-left:80px;
+	padding:10px 50px;
+	margin-top:7px;
+	background:royalblue;
+	border:none;
+	outline:none;
+	color:white;
+	transition: 2s;
+}
+.btnd:hover{
+	background: grey;
+	color: white;
+}
+.contact-us-container{
+	display:flex;
+	justify-content: space-between;
+	margin-bottom: 20px;
+	padding-bottom: 40px;
+}
+.h2-container .spanner{
+	color: royalblue;
+}
+.about-company{
+	display:flex;
+	justify-content: space-around;
+	margin-top:50px;
+	background:royalblue;
+	padding-top:20px;
+	padding-bottom:150px;
+	color:white;
+	border-bottom:1px solid black;
+}
+.about-company input{
+	padding:12px 40px;
+}
+.btnde{
+	margin-right:10px;
+	padding:10px 30px;
+	border-radius:5px;
+	border:none;
+	outline:none;
+}
+
+footer{
+	background:royalblue;
+	text-align: center;
+	color:white;
+	padding-top:20px;
+}
+
+ @media screen and (max-width: 70em){
+	
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

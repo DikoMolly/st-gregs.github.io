@@ -1,0 +1,421 @@
+*{
+	box-sizing:border-box;
+	scroll-behavior: scroll;
+    margin:0;
+	padding:0;
+    list-style: none;
+    text-decoration: none;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    overflow-x: hidden;   
+}
+.nav-container{
+    background: white;
+    display: flex;
+    position: fixed;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 999;
+    padding: .5rem .8rem;
+}
+
+.nav-container img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.background-image{
+    background-image: url("babtech.jpg");
+    width: 100%;
+    background-size: cover;
+    height: 100vh;
+    color: white;
+}
+.background-text{
+    margin-top: 200px;
+    line-height: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    animation-name: animate;
+    animation-duration: 2s;
+    position: relative;
+    font-size: 10px;
+}
+.background-text h1{
+    margin-bottom: 30px;
+}
+@keyframes animate{
+    from{
+        bottom:-2000px;
+    }
+    to{
+        bottom:20px;
+    }
+}
+#service-h2{
+    position: relative;
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 1rem 0;
+    font-size: 14px;
+}
+.service-our{
+    color: royalblue;
+}
+.tool-tip{
+    font-size: 10px;
+    background: royalblue;
+    padding: 5px;
+    border-radius: 10px;
+    color: white;
+    position:absolute;
+    top: 0;
+    left: 45%;
+    right: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.service-container img{
+    width: 100px;
+    border-radius: 100%;
+}
+.service-container{
+    display: grid;
+    justify-content: center;
+    text-align: center;
+}
+.service-container img{
+    width: 100px;
+    border-radius: 100%;
+}
+
+#about-container{
+    text-align: center;
+    margin-left: 2px;
+    margin-right: 2px;
+    font-size: 10px;
+}
+.about{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+#about-container span{
+    color: royalblue;
+}
+.service-container div{
+    background: lightgrey;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    height: 23rem;
+    border-radius: 10px;
+}
+.service-container p{
+    margin-left: 40px;
+    margin-right: 40px;
+    font-size: 17px;
+    margin-bottom: 20px;
+}
+.service-container h2{
+    margin-bottom: 20px;
+    font-size: 13;
+}
+.service-container a{
+    text-decoration: none;
+}
+.project-container{
+    background: royalblue;
+    padding: 20px;
+    color: white;
+    line-height: 20px;
+    margin-top: 30px;
+}
+.project-container h2{
+    font-size: 15px;
+}
+.project-container button{
+    padding: 5px 15px;
+    margin-top: 10px;
+    border: none;
+    outline: none;
+}
+.get-started-container{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-size: 10px;
+}
+
+.get-started-container h2{
+    margin-bottom: 15px;
+}
+.get-started-container p{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.contact-us-container img{
+    width: 50px;
+    border-radius: 50%;
+}
+.description-container{
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 10px;
+}
+#h2-container{
+    text-align: center;
+    margin-bottom: 20px;
+}
+form{
+    display: flex;
+    justify-content: center;
+}
+form input{
+    height: 50px;
+    margin-bottom: 10px;
+    width: 17rem;
+}
+form textarea{
+    height: 130px;
+    margin-bottom: 10px;
+    width: 17rem;
+}
+form button{
+    margin-left: 70px;
+    background: royalblue;
+    color: white;
+    border:none;
+    outline: none;
+    border-radius: 3px;
+    padding: 10px 30px;
+    margin-bottom: 20px;
+}
+.about-company{
+    background: royalblue;
+    color: white;
+    padding: 20px;
+}
+footer{
+    background: royalblue;
+    color: white;
+    padding: 20px;
+}
+.about-company input{
+    padding: 15px;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+}
+.about-company button{
+    padding: 15px;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    color: white;
+    margin-left: -40px;
+    width: 80px;
+}
+.contain{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+.one-name{
+    display: flex;
+    justify-content: space-around;
+}
+.location{
+    height: 50px;
+}
+#result{
+    color: red;
+    font-size: 10px;
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
+#number-result{
+    color: red;
+    font-size: 10px;
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
+#enquiries-result  {
+    color: red;
+    font-size: 10px;
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
+@media screen and (min-width:40em){
+    .service-container{
+        display: flex;
+        margin-left: 50px;
+        margin-right: 50px;
+        
+    }
+    .service-container p{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .service-container div{
+        padding-top: 20px;
+        padding-bottom: 0px;
+        height: 24rem;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    .service-container h2:nth-child(1){
+        margin-bottom: 50px;
+    }
+    .service-container img:nth-child(1){
+            height: 100px;
+    }
+    #about-container{
+        margin-left: 100px;
+        margin-right: 100px;
+        font-size: 12px;
+    }
+    .project-container{
+        display: flex;
+        justify-content: space-around;
+        padding: 50px;
+    }
+    .get-started-container{
+        margin-left: 100px;
+        margin-right: 100px;
+        font-size: 12px;
+    }
+    .contact-us-container{
+        display: flex;
+        justify-content: space-around;
+    }
+    .description-container{
+        line-height: 30px;
+    }
+    form input{
+        height: 4rem;
+        width: 25rem;
+    }
+    form textarea{
+        height: 8rem;
+        width: 25rem;
+    }
+    form button{
+        margin-left: 140px;
+        padding: 10px 40px;
+    }
+    .background-text{
+        font-size: 12px;
+        line-height: 30px;
+    }
+    .contain{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 50px;
+    }
+    .one-name{
+        display: flex;
+        justify-content: space-between;
+        
+    }
+    .one-name .second{
+        margin-left: 10px;
+    }
+    .contain .location{
+        width: 40px;
+    }
+    .contain .loca-wrap{
+        margin-right: 50px;
+    }
+    .contain .phone-wrap{
+        margin-left: 20px;
+    }
+    #h2-container{
+        margin-bottom: 70px;
+        margin-top: 70px;
+    }
+    .spanner{
+        color: royalblue;
+    }
+
+
+}
+
+@media screen and (min-width:70em){
+    .nav-container{
+        padding-bottom: 5px;
+        padding-top: 25px;
+        font-size: 20px;
+    }
+    .nav-container img{
+        width: 60px;
+    }
+    .background-text{
+        margin-top: 23rem;
+        font-size: 15px;
+        margin-left: 100px;
+    }
+    #about-container{
+        margin-top:-20px;
+        margin-left: 350px;
+        margin-right: 350px;
+    }
+    .project-container button{
+        padding: 10px 40px;
+        border-radius: 5px;
+        border: none;
+        outline: none;
+        color: white;
+    }
+    .project-container{
+        padding: 60px;
+    }
+    .project-container h2{
+        font-size: 17px;
+    }
+    .get-started-container{
+        margin-left: 400px;
+        margin-right: 400px;
+    }
+    .get-started-container h2{
+        font-size: 25px;
+    }
+    #h2-container{
+        margin-bottom: 100px;
+        margin-top: 50px;
+    }
+    .spanner{
+        color: royalblue;
+    }
+ 
+        
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
